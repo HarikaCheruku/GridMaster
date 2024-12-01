@@ -17,7 +17,7 @@ The project serves as an educational tool to better understand reinforcement lea
 <ul>
   <li>Python (NumPy for Q-learning Implementation)</li>
   <li>Gymnasium for the Frozen Lake environment</li>
-  <li>Streamlit for frontend visualization</li>
+  <li>Flask application for frontend visualization</li>
 </ul>
 
 <h2>Project Structure</h2>
