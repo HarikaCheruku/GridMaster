@@ -1,0 +1,286 @@
+PS C:\mave> & "C:/Program Files/Python38/python.exe" c:/mave/main.py
+Starting training...
+C:\Users\Akshita\AppData\Roaming\Python\Python38\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Episode 1000, Average Reward (last 1000): 52.76
+Episode 2000, Average Reward (last 1000): 85.81
+Episode 3000, Average Reward (last 1000): 86.11
+Episode 4000, Average Reward (last 1000): 86.21
+Episode 5000, Average Reward (last 1000): 86.14
+Episode 6000, Average Reward (last 1000): 85.91
+Episode 7000, Average Reward (last 1000): 85.63
+Episode 8000, Average Reward (last 1000): 85.68
+Episode 9000, Average Reward (last 1000): 85.69
+Episode 10000, Average Reward (last 1000): 85.80
+
+Final Q-table:
+[[ 2.74366323e+01 -1.80750183e+00  7.55042046e+01  1.86433266e+01]
+ [ 1.82499434e+01  1.12796904e+01  7.72769743e+01  3.14955401e+01]
+ [ 2.06342177e+01  7.90676509e+01  8.17663668e+00  2.53482301e+01]
+ [-4.04592312e+00 -9.00612891e-01  3.98399029e+01 -4.00073477e+00]
+ [-2.60490807e+00  7.15213441e+01 -3.24442132e+00 -3.33876792e+00]
+ [-2.74535594e+00  3.88870169e+01 -2.66932809e+00 -2.30838321e+00]
+ [-2.28953102e+00  4.78648582e+01 -2.22365425e+00 -2.26671794e+00]
+ [-2.12556264e+00  3.26697673e+00 -1.99159594e+00 -2.05653882e+00]
+ [-5.52701004e+00 -5.48776762e+00  1.44538808e+01 -5.61579871e+00]
+ [-4.97745050e+00 -4.91119974e+00  5.95927896e+01 -1.77603089e+00]
+ [ 7.86160052e+00 -4.45268937e+00  8.08764150e+01  3.80020895e+01]
+ [ 2.63351299e+01 -9.31705971e+00  8.27034495e+01  6.06333605e+00]
+ [ 3.27238641e+01  6.63726184e+00  8.45489389e+01  2.12443671e+01]
+ [ 4.54516184e+01  3.06114213e+01  8.64130696e+01  8.26608799e+00]
+ [ 3.77745168e+01  8.82960299e+01  4.01798887e+01  1.51951158e+01]
+ [-8.30831205e-01  8.03636773e+01  4.60334958e+00 -1.89546815e+00]
+ [-4.79903203e+00 -4.81682752e+00 -4.80846327e+00 -4.88842069e+00]
+ [-4.44228499e+00 -4.46424112e+00 -4.47070937e+00 -4.53188803e+00]
+ [-4.09256914e+00 -2.99796475e+00 -9.26912419e+00 -4.08163444e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-8.44071172e+00 -2.24972473e+00  3.33613985e+01 -2.63062997e+00]
+ [-2.10001104e+00 -6.11005327e+00  8.00012280e+01 -2.06701282e+00]
+ [ 2.80221557e+01  2.95696940e+01  9.01980100e+01  4.65104726e+01]
+ [ 5.37671421e+01  9.21192020e+01  5.45349549e+01  3.69050246e+01]
+ [-4.26175972e+00 -4.20880434e+00 -4.25003185e+00 -4.30245863e+00]
+ [-3.96807229e+00 -3.91104555e+00 -3.86541526e+00 -4.03406759e+00]
+ [-3.50470736e+00 -3.55315837e+00  4.27755683e-01 -3.78243165e+00]
+ [-2.85363358e+00 -5.26024615e+00  7.19147053e+00 -6.41527078e+00]
+ [-1.81261672e+00  1.92412141e+01 -5.83628170e+00 -1.33436526e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-3.08933772e+00  7.17595178e+01  4.87167264e+00  6.62016067e+00]
+ [ 2.39539935e+01  9.40598000e+01  5.70670036e+01  4.68262612e+01]
+ [-3.70112951e+00 -3.67407849e+00 -3.75811969e+00 -3.75585869e+00]
+ [-3.70539902e+00 -9.25493999e+00 -3.76547843e+00 -3.73603926e+00]
+ [-3.61978198e+00 -6.43988802e+00 -4.35729951e+00 -3.53068938e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-3.62080493e+00 -1.05601504e+00  4.05853929e+01 -1.36304586e+00]
+ [ 6.52395442e-01 -7.71812055e-01  6.81370287e+01 -2.92718050e+00]
+ [-6.09700505e-01 -4.57011302e+00  9.32262596e+01  1.16226663e+00]
+ [ 5.65967911e+01  9.60200000e+01  6.70900854e+01  5.68441398e+01]
+ [-3.15369528e+00 -3.17481500e+00 -8.39863155e+00 -3.22026904e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.23905345e+00 -8.69237635e-01 -6.71018229e-01 -2.39961861e+00]
+ [-8.91999152e-01 -2.36867317e+00 -8.17993295e-01  3.20793425e+00]
+ [-6.74608482e-01 -5.38911200e-01 -8.62367255e-01  3.00424237e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-7.47656748e+00  9.80000000e+01  6.90465191e+01  6.78323280e+01]
+ [-2.65657177e+00 -2.63281138e+00 -7.51661232e+00 -2.75377155e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-1.53657544e+00 -1.32860198e+00 -1.31489858e+00 -2.23924024e+00]
+ [-1.05190563e+00 -2.26915563e+00 -1.53605550e+00 -1.06085033e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-1.81550065e+00 -1.64412558e-01 -2.30880902e+00 -2.15811844e-01]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-5.85198191e+00  1.00000000e+02  7.17839665e+01  6.48171740e+01]
+ [-2.32345798e+00 -2.29763754e+00 -2.29868861e+00 -2.27483883e+00]
+ [-1.98570839e+00 -1.88597235e+00 -1.87991229e+00 -5.39132622e+00]
+ [-1.62021952e+00 -1.62277532e+00 -2.96579039e+00 -1.61529271e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00 -8.06454684e-02 -8.06454684e-01]
+ [-1.54787245e-01 -8.06454684e-02 -8.06454684e-02 -9.11151103e-02]
+ [-8.70841230e-02  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]]
+
+Q-table saved to 'q_table.npy'
+
+Demonstrating optimal path:
+
+Q-values for current state:
+LEFT: 27.437
+DOWN: -1.808
+RIGHT: 75.504
+UP: 18.643
+C:\Users\Akshita\AppData\Roaming\Python\Python38\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+
+Step 1:
+From state 0 to 1
+Action taken: RIGHT
+Current state Q-value: 75.504
+Immediate reward: -1
+Discounted future value: 76.504
+Total reward so far: -1
+
+Q-values for current state:
+LEFT: 18.250
+DOWN: 11.280
+RIGHT: 77.277
+UP: 31.496
+
+Step 2:
+From state 1 to 2
+Action taken: RIGHT
+Current state Q-value: 77.277
+Immediate reward: -1
+Discounted future value: 78.277
+Total reward so far: -2
+
+Q-values for current state:
+LEFT: 20.634
+DOWN: 79.068
+RIGHT: 8.177
+UP: 25.348
+
+Step 3:
+From state 2 to 10
+Action taken: DOWN
+Current state Q-value: 79.068
+Immediate reward: -1
+Discounted future value: 80.068
+Total reward so far: -3
+
+Q-values for current state:
+LEFT: 7.862
+DOWN: -4.453
+RIGHT: 80.876
+UP: 38.002
+
+Step 4:
+From state 10 to 11
+Action taken: RIGHT
+Current state Q-value: 80.876
+Immediate reward: -1
+Discounted future value: 81.876
+Total reward so far: -4
+
+Q-values for current state:
+LEFT: 26.335
+DOWN: -9.317
+RIGHT: 82.703
+UP: 6.063
+
+Step 5:
+From state 11 to 12
+Action taken: RIGHT
+Current state Q-value: 82.703
+Immediate reward: -1
+Discounted future value: 83.703
+Total reward so far: -5
+
+Q-values for current state:
+LEFT: 32.724
+DOWN: 6.637
+RIGHT: 84.549
+UP: 21.244
+
+Step 6:
+From state 12 to 13
+Action taken: RIGHT
+Current state Q-value: 84.549
+Immediate reward: -1
+Discounted future value: 85.549
+Total reward so far: -6
+
+Q-values for current state:
+LEFT: 45.452
+DOWN: 30.611
+RIGHT: 86.413
+UP: 8.266
+
+Step 7:
+From state 13 to 14
+Action taken: RIGHT
+Current state Q-value: 86.413
+Immediate reward: -1
+Discounted future value: 87.413
+Total reward so far: -7
+
+Q-values for current state:
+LEFT: 37.775
+DOWN: 88.296
+RIGHT: 40.180
+UP: 15.195
+
+Step 8:
+From state 14 to 22
+Action taken: DOWN
+Current state Q-value: 88.296
+Immediate reward: -1
+Discounted future value: 89.296
+Total reward so far: -8
+
+Q-values for current state:
+LEFT: 28.022
+DOWN: 29.570
+RIGHT: 90.198
+UP: 46.510
+
+Step 9:
+From state 22 to 23
+Action taken: RIGHT
+Current state Q-value: 90.198
+Immediate reward: -1
+Discounted future value: 91.198
+Total reward so far: -9
+
+Q-values for current state:
+LEFT: 53.767
+DOWN: 92.119
+RIGHT: 54.535
+UP: 36.905
+
+Step 10:
+From state 23 to 31
+Action taken: DOWN
+Current state Q-value: 92.119
+Immediate reward: -1
+Discounted future value: 93.119
+Total reward so far: -10
+
+Q-values for current state:
+LEFT: 23.954
+DOWN: 94.060
+RIGHT: 57.067
+UP: 46.826
+
+Step 11:
+From state 31 to 39
+Action taken: DOWN
+Current state Q-value: 94.060
+Immediate reward: -1
+Discounted future value: 95.060
+Total reward so far: -11
+
+Q-values for current state:
+LEFT: 56.597
+DOWN: 96.020
+RIGHT: 67.090
+UP: 56.844
+
+Step 12:
+From state 39 to 47
+Action taken: DOWN
+Current state Q-value: 96.020
+Immediate reward: -1
+Discounted future value: 97.020
+Total reward so far: -12
+
+Q-values for current state:
+LEFT: -7.477
+DOWN: 98.000
+RIGHT: 69.047
+UP: 67.832
+
+Step 13:
+From state 47 to 55
+Action taken: DOWN
+Current state Q-value: 98.000
+Immediate reward: -1
+Discounted future value: 99.000
+Total reward so far: -13
+
+Q-values for current state:
+LEFT: -5.852
+DOWN: 100.000
+RIGHT: 71.784
+UP: 64.817
+
+Step 14:
+From state 55 to 63
+Action taken: DOWN
+Current state Q-value: 100.000
+Immediate reward: 100
+Discounted future value: 100.000
+Total reward so far: 87
+
+Goal reached in 14 steps!
+Final total reward: 87
+PS C:\mave> 
